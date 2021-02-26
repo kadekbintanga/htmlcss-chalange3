@@ -18,12 +18,28 @@
     width:58.33333%;
 }
 
-.menu {
+.photo-profil-size {
     width:fit-content;
     float: left;
 }
 
-.main {
+.comments-size {
     width: 90%;
     float: left;
-  }
+}
+
+.text-blue {
+    color: blue;
+}
+
+.text-gray {
+    color:gray;
+}
+
+.text-black {
+    color: black;
+}
+
+.background-comment {
+    background-color: #f5f7f8;
+}

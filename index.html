@@ -11,48 +11,58 @@
 </head>
 <body class="component-template">
     <div class="container container-template" style="padding-top: 10px;">
+        <!-- Card -->
         <div class="card">
+            <!-- Header -->
             <div class="card-body">
-                <div class="menu">
+                <div class="photo-profil-size">
                     <img src="./source/image/photo profil1.jpg" width="50px" class="rounded-circle component-left mr-3" alt="">
                 </div>
                 <img class="component-right" src="./source/image/three-dots-vertical.svg"  width="3%" alt="">
-                <p style="color: blue;">Kadek Bintang A <a style="color: black;">posted on your timeline</a></p>
+                <p class="text-blue">Kadek Bintang A <a class="text-black">posted on your timeline</a></p>
                 <p style="margin-top: -15px;">32 minutes ago</p><br>
             </div>
+            <!-- End Header -->
 
+            <!-- Posting -->
             <div class="card-body" style="margin-top: -15px;">
                 <p>Remember the place we were talking about the other night? Found it!</p>
             </div>
-
             <div class="col-md-12 text-center">
                 <img src="./source/image/post2.jpg" width="100%" alt="">
             </div>
+            <!-- End of Posting -->
+
+            <!-- Like and Share -->
             <div class="col-md-12 mt-3 mb-3">
                 <img src="./source/image/heart-fill.svg" width="3%" class="mr-2" alt="">Like(5)
                 <img src="./source/image/share.svg" class="ml-3 mr-2" alt="">Share(21)
             </div>
+            <!-- End Like and Share -->
 
-            <div class="card-body" style="background-color: #f5f7f8;">
+            <!-- Comments -->
+            <div class="card-body background-comment">
                 <p>(1) Comments <img src="./source/image/chevron-down.svg" alt=""></p>
-                <div class="menu">
+                <div class="photo-profil-size">
                     <img src="./source/image/photo profil2.jpg" width="50px" class="rounded-circle component-left mr-3" alt="">
                 </div>
-                <div class="main">
-                    <p style="color: black;">Muspita Dewi <a style="color: gray;">June 10,2018</a></p>
-                    <p style="color: black; margin-top: -15px;">Thats a wonderful place Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <div class="comments-size">
+                    <p class="text-black">Muspita Dewi <a class="text-gray">June 10,2018</a></p>
+                    <p class="text-black" style="margin-top: -15px;">Thats a wonderful place Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Neque eligendi ea earum ab sapiente libero sed!</p>
-                    <p style="color: blue;">Reply <img class="ml-3" src="./source/image/flag.svg" alt=""></p>
+                    <p class="text-blue">Reply <img class="ml-3" src="./source/image/flag.svg" alt=""></p>
                 </div>
-                <div class="menu">
+                <div class="photo-profil-size">
                     <img src="./source/image/photo profil3.jpg" width="50px" class="rounded-circle component-left mr-3" alt="">
                 </div>
-                <div class="main">
+                <div class="comments-size">
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     <button class="btn btn-primary mt-2">Post Comments</button>
                 </div>
             </div>
+            <!-- End of Comments -->
         </div>
+        <!-- End of Card -->
     </div>
 </div>
 
